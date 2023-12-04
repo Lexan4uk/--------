@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Leto Sans';
+    src: url('./../fonts/LetoSans-Thin.eot');
+    src: local('Leto Sans Thin'), local('LetoSans-Thin'),
+        url('./../fonts/LetoSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/LetoSans-Thin.woff2') format('woff2'),
+        url('./../fonts/LetoSans-Thin.woff') format('woff'),
+        url('./../fonts/LetoSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Leto Sans';
+    src: url('./../fonts/LetoSans-Bold.eot');
+    src: local('Leto Sans Bold'), local('LetoSans-Bold'),
+        url('./../fonts/LetoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/LetoSans-Bold.woff2') format('woff2'),
+        url('./../fonts/LetoSans-Bold.woff') format('woff'),
+        url('./../fonts/LetoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Leto Sans';
+    src: url('./../fonts/LetoSans-Regular.eot');
+    src: local('Leto Sans Regular'), local('LetoSans-Regular'),
+        url('./../fonts/LetoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/LetoSans-Regular.woff2') format('woff2'),
+        url('./../fonts/LetoSans-Regular.woff') format('woff'),
+        url('./../fonts/LetoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
