@@ -1,0 +1,250 @@
+@media (max-width: 1366px) {
+    body {
+        width: 1366px;
+    }
+    /*Хэдер*/
+    .logo-img {
+        margin-right: 18px;
+        width: 36px;
+        height: 42px;
+    }
+    .logo-text {
+        margin-top: 15px;
+        color: #182B5A;
+        font-family: 'Leto Sans';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .menu {
+        color: #182B5A;
+    }
+    .menu p {
+        margin-left: 39px;
+    }
+    
+    .header-block-content {
+        padding-top: 40px;
+        padding-left: 98px;
+        width: 1000px;
+    }
+    .header-block-content .block-text {
+        font-size: 36px;
+    }
+    .header-block-content .block-button {
+        background-color: transparent;
+        border: 3px solid #182B5A;
+        width: 250px;
+        height: 55px;
+    }
+    .header-block-content .block-button p {
+        font-size: 16px;
+    }
+    .slider-line {
+        background-image: url('./../source/header/slider.svg');
+        height: 4px;
+        width: 170px;
+        margin-top: 244px;
+    }
+    
+    /*Первый блок*/
+    .first-block {
+        position: relative;
+        height: 739px;
+        width: 100%;
+        background-color: #5c5858;
+    }
+    .image-container-first {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        clip-path: polygon(0 0, 100% 0, calc(100% - 180px) 100%, 0 100%);
+    }
+    .img1 {
+        clip-path: polygon(0 0, 99% 0, calc(100% - 161px) 100%, 0 100%);
+        width: 71%;
+        height: 83%;
+    }
+    
+    .bluebg {
+        visibility: hidden;
+    }
+    .info-holder {
+        visibility: hidden;
+    }
+    .img2{
+        height: 100%;
+    }
+    .bottom-text {
+        visibility: visible;
+
+    }
+    .bottom-text p {
+        visibility: visible;
+    }
+    .borderimg {
+        margin-left: 503px;
+    }
+    .image-container-sec {
+        margin-left: 403px;
+        height: 100%;
+    }
+    .upper-text {
+        width: 913px;
+        height: 130px;
+        margin-left: 50px;
+    }
+    .upper-text p {
+        font-size: 24px;
+    }
+    /*Второй блок*/
+    .second-block {
+        height: 696px;
+    }
+
+    .blue-bg {
+        width: 552px;
+        height: 435px;
+        top: 107px;
+        left: 90px;
+    }
+    .second-block-img {
+        width: 552px;
+        height: 435px;
+        top: 132px;
+        left: 110px;
+    }
+    .second-block .content-block {
+        margin-top: 92px;
+        margin-left: 0px;
+        width: 572px;
+    }
+    .second-block .content-block .title {
+        color: #182B5A;
+        font-size: 35px;
+    }
+    .second-block .content-block .text {
+        color: #182B5A;
+        font-size: 16px;
+        margin-top: 25px;
+        line-height: 1.6;
+    
+    }
+    .second-block .content-block .content-button p {
+        font-size: 16px;
+    }
+    /*Третий блок*/
+    .third-block {
+        height: 498px;
+        background-color: #182B5A;
+    }
+    .building-img1 {
+        bottom: -1px;
+        margin-left: 8px;
+    }
+    .third-block-content {
+        margin-top: 100px;
+    }
+    .third-block-content .title{
+        font-size: 35px;
+        margin-bottom: 56px;
+    }
+    .third-block-input1 {
+        margin-bottom: 20px;
+        width: 415px;
+        height: 55px;
+    }
+    .third-block-input2 {
+        margin-bottom: 20px;
+        width: 415px;
+        height: 55px;
+    }
+    .third-block-input1::placeholder,
+    .third-block-input2::placeholder {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    .third-block-checkbox {
+        width: 24px;
+        height: 24px;
+    }
+    .text-holder .text {
+        font-size: 16px;
+    }
+    .text-holder .text-underlined {
+        font-size: 16px;
+      }
+    .building-img2 {
+        position: absolute;
+        bottom: -9px;
+        right: 0;
+        margin-right: 33px;
+    }
+    .third-image-button {
+        font-size: 16px;
+        width: 175px;
+        height: 50px;
+        margin-top: 30px;
+    
+    }
+    .third-image-button p {
+        font-size: 16px;
+    }
+    /*Четвёртый блок*/
+    .fourth-block {
+        height: 489px;
+    }
+    .map-holder {
+        width: 50%;
+        height: 100%;
+    }
+    .fourth-block-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 59px;
+        margin-left: 119px;
+    }
+    .fourth-block-content p{
+        font-size: 24px;
+    }
+    .fourth-block-content-holder {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fourth-block-row-col1 p{
+        color: #182B5A;
+        font-size: 16px;
+        margin-left: 9px;
+    }
+    
+    .fourth-block-colum2 {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .fourth-block-row-col2 a{
+        color: #182B5A;
+        font-size: 16px;
+    }
+    .fourth-block-row-col2 p{
+        color: #182B5A;
+        font-size: 16px;
+    }
+    /*Футер*/
+    footer {
+        height: 274px;
+        overflow: hidden;
+    }
+    .footer-text {
+        color: #FEFEFE;
+        font-size: 16px;
+        line-height: 2;
+        padding-top: 60px;
+        padding-left: 100px;
+    
+    }
+    
+}
