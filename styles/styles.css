@@ -16,6 +16,8 @@ header {
     position: relative;
     height: 100%;
     background-image: url('./../source/header/giant-building-with-sun-1.jpg');
+    display: flex;
+    align-items: center;
 }
 .logo {
     margin-left: 100px;
@@ -71,17 +73,11 @@ header {
 .header-block {
     position: relative;
 }
-.header-block-image {
-    position: absolute;
-    z-index: 0;
-
-}
 .header-block-content {
     z-index: 1;
-    position: relative;
-    top: 256px;
-    left: 100px;
     width: 1000px;
+    margin-left: 100px;
+    margin-bottom: 120px;
 }
 .header-block-content .block-text {
     color: #182B5A;
@@ -115,10 +111,12 @@ header {
     line-height: normal;
 }
 .slider-line {
+    position: absolute;
     background-image: url('./../source/header/slider.svg');
     height: 4px;
     width: 170px;
-    margin-top: 280px;
+    margin-top: 580px;
+    margin-left: 100px;
 }
 
 /*Первый блок*/
@@ -146,7 +144,7 @@ header {
     left: 0;
     background-color: #182B5AE5;
     z-index: 3;
-    height: 739px;
+    height: 100%;
 }
 .info-holder {
     z-index: 4;
@@ -211,6 +209,21 @@ header {
     position: absolute;
     z-index: 2;
     margin-left: 862px;
+    background-image: url('./source/main/block1/vector-1.png');
+}
+.miniborderimg {
+    position: absolute;
+    z-index: 2;
+    margin-left: 462px;
+    background-image: url('./source/main/block1/vector-2.png');
+    visibility: collapse;
+}
+.microborderimg {
+    position: absolute;
+    z-index: 2;
+    margin-left: 862px;
+    background-image: url('./source/main/block1/vector-1.png');
+    visibility: collapse;
 }
 .image-container-sec {
     margin-left: 863px;
@@ -475,7 +488,7 @@ header {
     font-family: 'Roboto';
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
 }
 .fourth-block-row-col2 p{
