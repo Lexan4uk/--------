@@ -70,12 +70,22 @@ header {
 .menu p:hover::after {
     transform: scaleX(1);
 }
+.mobmenu {
+    background-image: url('./../source/header/mobmenu.svg');
+    height: 50px;
+    width: 50px;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    position: absolute;
+    visibility: collapse;
+}
 .header-block {
     position: relative;
 }
 .header-block-content {
     z-index: 1;
-    width: 1000px;
+    width: 850px;
     margin-left: 100px;
     margin-bottom: 120px;
 }
@@ -210,20 +220,6 @@ header {
     z-index: 2;
     margin-left: 862px;
     background-image: url('./source/main/block1/vector-1.png');
-}
-.miniborderimg {
-    position: absolute;
-    z-index: 2;
-    margin-left: 462px;
-    background-image: url('./source/main/block1/vector-2.png');
-    visibility: collapse;
-}
-.microborderimg {
-    position: absolute;
-    z-index: 2;
-    margin-left: 862px;
-    background-image: url('./source/main/block1/vector-1.png');
-    visibility: collapse;
 }
 .image-container-sec {
     margin-left: 863px;

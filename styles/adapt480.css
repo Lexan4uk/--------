@@ -1,0 +1,288 @@
+@media (max-width: 480px) {
+    body {
+        width: 480px;
+    }
+    /*Хэдер*/
+    header {
+        height: 350px;
+    }
+    .header-menu {
+        height: 50px;
+    }
+    
+    .logo {
+        margin-left: 20px;
+    }
+    .logo-img {
+        margin-right: 11px;
+        width: 22px;
+        height: 26px;
+    }
+    .logo-text {
+        margin-top: 8px;
+        color: #182B5A;
+        font-size: 14px;
+    }
+    .menu {
+        visibility: collapse;
+    }
+    .mobmenu {
+        visibility: visible;
+    }
+    .mobmenu:hover {
+        cursor: pointer;
+    }
+    .header-block {
+        height: 300px;
+        justify-content: center;
+        background-image: url('./../source/header/giant-building-with-sun-4.png');
+    }
+    .header-block-content {
+        margin-left: 0px;
+        width: 340px;
+        text-align: center;
+    }
+    .header-block-content .block-text {
+        font-size: 16px;
+    }
+    .header-block-content .block-button {
+        background-color: transparent;
+        border: 3px solid #182B5A;
+        width: 170px;
+        height: 40px;
+    }
+    .header-block-content .block-button p {
+        font-size: 12px;
+    }
+    .slider-line {
+        background-image: url('./../source/header/slider-mini.svg');
+        height: 3px;
+        width: 119px;
+        margin-top: 235px;
+        margin-left: 0px;
+    }
+    
+    /*Первый блок*/
+    .first-block {
+        height: 256px;
+    }
+    .image-container-first {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        width: 50%;
+    }
+    .img1 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        width: 100%;
+        height: 110%;
+    }
+    .img2{
+        height: 100%;
+        width: 100%;
+    }
+    .bottom-text {
+        width: 240px;
+        height: 60px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        top: 0px;
+    }
+    .bottom-text p {
+        font-size: 14px;
+        margin-left: 67px;
+    }
+    .borderimg {
+        margin-left: 50%;
+        height: 99%;
+    }
+    .image-container-sec {
+        margin-left: 50%;
+        height: 100%;
+        width: 50%;
+    }
+    .upper-text {
+        width: 50%;
+        height: 53px;
+        bottom: 0;
+        margin-left: 0;
+    }
+    .upper-text p {
+        font-size: 14px;
+        margin-left: 69px;
+        margin-right: 68px;
+        text-align: center;
+    }
+    /*Второй блок*/
+    .second-block {
+        height: 516px;
+        justify-content: center;
+    }
+    .second-block .images-block {
+        width: 0px;
+    }
+    .blue-bg {
+        visibility: collapse;
+    }
+    .second-block-img {
+        visibility: collapse;
+    }
+    .second-block .content-block {
+        margin-top: 42px;
+        margin-left: 0px;
+        width: 440px;
+        text-align: center;
+    }
+    .second-block .content-block .title {
+        color: #182B5A;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .second-block .content-block .text {
+        color: #000000;
+        font-size: 14px;
+        margin-top: 21px;
+        line-height: 1.85;
+    }
+    .second-block .content-block .content-button {
+        width: 150px;
+        height: 40px;
+        margin-top: 20px;
+        transition: transform 0.3s ease-in-out;
+    }
+    /*Третий блок*/
+    .third-block {
+        height: 414px;
+        background-color: #182B5A;
+    }
+    .building-img1 {
+        visibility: collapse;
+    }
+    .third-block-content {
+        margin-top: 48px;
+    }
+    .third-block-content .title{
+        font-size: 18px;
+        margin-bottom: 22px;
+        margin-left: 99px;
+        margin-right: 99px;
+    }
+    .third-block-input1 {
+        margin-bottom: 12px;
+        width: 361px;
+        height: 55px;
+        text-align: center;
+    }
+    .third-block-input2 {
+        margin-bottom: 25px;
+        width: 361px;
+        height: 50px;
+        text-align: center;
+    }
+    .third-block-input1::placeholder,
+    .third-block-input2::placeholder {
+        font-size: 14px;
+    }
+    .third-block-checkbox {
+        width: 20px;
+        height: 20px;
+
+    }
+    .text-holder .text {
+        font-size: 14px;
+    }
+    .text-holder .text-underlined {
+        font-size: 14px;
+      }
+    .building-img2 {
+        visibility: collapse;
+    }
+    .third-image-button {
+        width: 130px;
+        height: 40px;
+        margin-top: 35px;
+    
+    }
+    .third-image-button p {
+        font-size: 14px;
+    }
+    /*Четвёртый блок*/
+    .fourth-block {
+        height: 789px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0px;
+        justify-content: start;
+    }
+    .map-holder {
+        width: 100%;
+        height: 298px;
+        margin-bottom: 0px;
+
+    }
+    .fourth-block-content {
+        align-items: center;
+        margin-top: 45px;
+        margin-left: 0px;
+    }
+    .fourth-block-content p{
+        font-size: 18px;
+        
+    }
+    .fourth-block-content-holder {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .fourth-block-colum1 {
+        align-items: center;
+        position: relative;
+    }
+    .fourth-block-colum1::after {
+        content: "";
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 440px;
+        height: 1px;
+        background-color: #C4C4C4;
+      }
+    .fourth-block-row-col1 p{
+        font-size: 14px;
+        margin-left: 9px;
+    }
+    
+    .fourth-block-colum2 {
+        margin-left: 0px;
+        margin-top: 70px;
+        align-items: center;
+
+    }
+    .fourth-block-row-col2 a{
+        color: #182B5A;
+        font-size: 14px;
+    }
+    .fourth-block-row-col2 p{
+        font-size: 14px;
+    }
+    /*Футер*/
+    footer {
+        height: 285px;
+        overflow: hidden;
+    }
+    .footer-text {
+        color: #FEFEFE;
+        text-align: center;
+        font-size: 14px;
+        line-height: 2;
+        padding-top: 43px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 189px;
+    }
+    
+}

@@ -40,7 +40,7 @@
         background-image: url('./../source/header/giant-building-with-sun-3.png');
     }
     .header-block-content {
-        width: 1000px;
+        width: 530px;
         margin-bottom: 0px;
         margin-left: 30px;
     }
@@ -108,11 +108,7 @@
         font-size: 16px;
     }
     .borderimg {
-        visibility: collapse;
-    }
-    .miniborderimg {
-        visibility: visible;
-
+        margin-left: 460px;
     }
     .image-container-sec {
         margin-left: 453px;
@@ -161,7 +157,7 @@
     .second-block .content-block .content-button {
         width: 130px;
         height: 40px;
-        margin-top: 25px;
+        margin-top: 30px;
         transition: transform 0.3s ease-in-out;
     }
     .second-block .content-block .content-button p {
@@ -175,6 +171,7 @@
     .building-img1 {
         bottom: -1px;
         margin-left: -16px;
+        height: 50%;
     }
     .third-block-content {
         margin-top: 53px;
@@ -209,10 +206,9 @@
         font-size: 14px;
       }
     .building-img2 {
-        position: absolute;
         bottom: -9px;
-        right: 0;
         margin-right: 13px;
+        height: 57%;
     }
     .third-image-button {
         width: 130px;
@@ -236,9 +232,11 @@
     .fourth-block-content {
         display: flex;
         flex-direction: column;
-        margin-top: 59px;
+        margin-top: 40px;
         margin-left: 119px;
         text-align: center;
+        margin-bottom: 40px;
+
         
     }
     .fourth-block-content p{
@@ -252,7 +250,7 @@
     }
 
     .fourth-block-row-col1 p{
-        color: #182B5A;
+        color: #000000;
         font-size: 14px;
         margin-left: 9px;
     }
@@ -266,7 +264,7 @@
         font-size: 14px;
     }
     .fourth-block-row-col2 p{
-        color: #182B5A;
+        color: #000000;
         font-size: 14px;
     }
     /*Футер*/
