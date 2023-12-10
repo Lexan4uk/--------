@@ -23,10 +23,11 @@
         background-image: url('./../source/header/giant-building-with-sun-2.png');
     }
     .header-block-content {
-        width: 800px;
+        width: 1366px;
     }
     .header-block-content .block-text {
         font-size: 36px;
+        width: 880px;
     }
     .header-block-content .block-button {
         background-color: transparent;
@@ -38,10 +39,7 @@
         font-size: 16px;
     }
     .slider-line {
-        background-image: url('./../source/header/slider.svg');
-        height: 4px;
-        width: 170px;
-        margin-top: 590px;
+        margin-top: -140px;
     }
     
     /*Первый блок*/

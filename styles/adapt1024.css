@@ -40,12 +40,13 @@
         background-image: url('./../source/header/giant-building-with-sun-3.png');
     }
     .header-block-content {
-        width: 530px;
+        width: 1024px;
         margin-bottom: 0px;
-        margin-left: 30px;
+        padding-left: 30px;
     }
     .header-block-content .block-text {
         font-size: 24px;
+        width: 530px;
     }
     .header-block-content .block-button {
         background-color: transparent;
@@ -58,10 +59,7 @@
         font-size: 14px;
     }
     .slider-line {
-        background-image: url('./../source/header/slider.svg');
-        height: 4px;
-        width: 170px;
-        margin-top: 530px;
+        margin-top: -115px;
         margin-left: 30px;
     }
     

@@ -46,6 +46,8 @@ header {
     line-height: normal;
     display: flex;
     margin-right: 109px;
+    width: 100%;
+    justify-content: right;
 }
 .menu p {
     margin-left: 49px;
@@ -77,17 +79,29 @@ header {
     top: 0;
     right: 0;
     margin-right: 20px;
-    position: absolute;
     visibility: collapse;
+}
+.dropdown-mobmenu {
+    display: none;
+}
+.slider {
+    overflow: hidden;
+    height: 100%;
+}
+.slider-holder {
+    display: flex;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
 }
 .header-block {
     position: relative;
+    height: 100%;
 }
 .header-block-content {
     z-index: 1;
-    width: 850px;
-    margin-left: 100px;
-    margin-bottom: 120px;
+    padding-left: 100px;
+    padding-bottom: 120px;
+    width: 1920px;
 }
 .header-block-content .block-text {
     color: #182B5A;
@@ -96,6 +110,7 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: 890px;
 }
 .header-block-content .block-button {
     background-color: transparent;
@@ -122,13 +137,20 @@ header {
 }
 .slider-line {
     position: absolute;
-    background-image: url('./../source/header/slider.svg');
-    height: 4px;
-    width: 170px;
-    margin-top: 580px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -140px;
     margin-left: 100px;
 }
-
+.slider-line-block {
+    width: 35px;
+    height: 4px;
+    background-color: black;
+    margin-right: 10px;
+}
+.slider-line-block.active {
+  background-color: #182B5A;
+}
 /*Первый блок*/
 .first-block {
     position: relative;

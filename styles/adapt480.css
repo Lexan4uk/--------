@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     body {
         width: 480px;
     }
@@ -25,12 +25,43 @@
     }
     .menu {
         visibility: collapse;
+        width: 0px;
     }
     .mobmenu {
         visibility: visible;
-    }
-    .mobmenu:hover {
+        position: relative;
+        width: 50px;
+        margin-right: 20px;
+        overflow: hidden;
         cursor: pointer;
+    }
+    .dropdown-mobmenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 20px;
+        margin-top: 50px;
+        background-color: #f9f9f9;
+        z-index: 2;
+        width: 100px;
+        height: 125px;
+    }
+    .dropdown-mobmenu p{
+        float: none;
+        color: #000;
+        font-family: 'Roboto';
+        font-size: 10px;
+        padding: 5px 10px;
+        text-decoration: none;
+        display: block;
+        text-align: right;
+    }
+    .dropdown-mobmenu p:hover {
+        background-color: #ddd;
+        cursor: pointer;
+    }
+    .show-dropdown  {
+        display: block;
     }
     .header-block {
         height: 300px;
@@ -39,27 +70,33 @@
     }
     .header-block-content {
         margin-left: 0px;
-        width: 340px;
-        text-align: center;
+        width: 480px;
+        text-align: right;
+        padding-left: 0px;
+
     }
     .header-block-content .block-text {
         font-size: 16px;
+        width: 340px;
+        margin-left: 10px;
     }
     .header-block-content .block-button {
         background-color: transparent;
         border: 3px solid #182B5A;
         width: 170px;
         height: 40px;
+        margin-right: 150px;
     }
     .header-block-content .block-button p {
         font-size: 12px;
     }
     .slider-line {
-        background-image: url('./../source/header/slider-mini.svg');
+        margin-top: -85px;
+        margin-left: 180px;
+    }
+    .slider-line-block {
+        width: 24.5px;
         height: 3px;
-        width: 119px;
-        margin-top: 235px;
-        margin-left: 0px;
     }
     
     /*Первый блок*/
@@ -130,7 +167,7 @@
     }
     .second-block .content-block {
         margin-top: 42px;
-        margin-left: 0px;
+        margin-left: 20px;
         width: 440px;
         text-align: center;
     }
